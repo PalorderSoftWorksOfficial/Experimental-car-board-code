@@ -7,7 +7,8 @@ radio.onReceivedValue(function (recievedString, value) {
         wuKong.setLightMode(wuKong.LightMode.BREATH)
         wuKong.lightIntensity(100)
         basic.showIcon(IconNames.No)
-        basic.pause(5000)
+        IconNames.Yes
+basic.pause(5000)
         basic.clearScreen()
         wuKong.lightIntensity(0)
         wuKong.setLightMode(wuKong.LightMode.OFF)
